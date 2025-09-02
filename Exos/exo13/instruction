@@ -1,0 +1,7 @@
+# Liste de courses
+ 
+C'est journée courses aujourd'hui !
+Demande donc à l'utilisateur d'ajouter un produit à sa liste de courses et ensuite lui demander s'il veut ajouter autre chose, et ainsi de suite..
+S'il répond oui alors il peut le faire, si au contraire il répond non on affiche sa liste de courses sur la page.
+Chaque produit devra être séparé par une virgule.
+ 
