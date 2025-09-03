@@ -4,15 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="inventaire.css">
 </head>
 <body>
-    <h1>Inventaire du magasin</h1>
-    <button onclick="produit(3)" class="all">Tous les produits</button>
-    <button onclick="produit(2)" class="elec">Electronique</button>
-    <button onclick="produit(1)" class="vetement">Vêtements</button>
-
-
+    <p># Inventaire d'un magasin
+        - Il faut dans un premier temps afficher tous les produits du magasin sous forme de liste au clic d'un bouton.
+Les produits seront stockés dans un tableau d'objets dans votre script. Chaque produit à un nom, un prix et une catégorie.
+   
+- Ensuite il va falloir créer un sytème de filtrage pour n'afficher que les produits d'une catégorie voulue en cliquant sur son bouton attitré.</p>
+       
+ 
+    <!-- <section class="box">  
+        <div id="list" >
+            <button onclick="leila" class="all">Tous les produits</button>
+           
+        </div>
+ 
+       
+        <div id="elec" >
+            <button onclick="leila" class="elec">Electronique</button>
+           
+        </div>
+       
+         
+        <div id="vetement" >
+            <button onclick="leila" class="vetement">Vêtements</button>
+           
+        </div>
+     
+    </section>   -->
+    <div>
+        <button onclick="leila()">Tous les produits</button>
+        <button onclick="leila2('Electronique')">Electronique</button>
+        <button onclick="leila2('Vêtements')">Vetements</button>
+    </div>
+    <div id="list">
+ 
+    </div>
+ 
     <script src="inventaire.js"></script>
 </body>
 </html>
+ 
