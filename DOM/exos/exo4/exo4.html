@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- <body> -->
+    <!-- <p># Valider un formulaire
+ 
+Nous avons déjà vu comment récupérer des valeurs d'un champs de texte, comment ne pas laisser un champs vide mais 
+comment réellement vérifier de manière concrète un formulaire à la soumission ?
+ 
+Ici il va falloir faire en sorte de créer un formulaire dans le html afin de permettre à l'utilisateur 
+de faire ses informations (nom, âge et mot de passe).
+ 
+Vous aurez également besoin de 2 div pour gérer les messages d'erreurs. Les messages d'erreurs seront affichés en rouge, 
+le message de formulaire envoyé avec succès sera quant à lui en vert.
+ 
+- Le nom ne doit être en aucun cas laissé vide
+- Il faut limiter l'âge de l'utilisateur (libre choix des limite)
+- Le format du mot de passe devra être vérifié également.
+   Le mot de passe doit contenir au moins 8 caractères, avec une majuscule, une minuscule, un chiffre, et un caractère spécial.
+ 
+MDP uniquement avec regex
+      
+</p> --> 
+
+<form id="emailForm">
+    <label for="name">Nom </label>
+        <input type="text" id="name" name="name" required>
+        <br>
+    <label for="age">Age</label>
+        <input type="text" id="age" name="age" required>
+        <br>
+     <label for="email">Email </label>
+        <input type="text" id="email" name="email" required>
+        <br>        
+        <button type="submit">Valider</button>
+
+</form>
+
+<div id="error" style="color: red; display: none;"></div>
+<div id="succes" style="color: rgb(7, 176, 29); display: none;"></div>
+
+<!-- *********************HTML Ahmed********************************** -->
+ 
+<!-- 
+    <form id="user-sub">
+         
+
+        <label for="nom">your name :</label>
+        <input type="text" id="nom" name="nom"><br>
+
+        <label for="age">your age :</label>
+        <input type="number" id="age" name="age" required><br>
+        <label for="password">mot de passe :</label>
+        <input type="password" id="password" name="password" required>
+        <input id="showPass" type="checkbox"><label >show passeword</label><br>
+        <button type="submit">s'inscrire</button>
+
+ 
+    </form>
+
+
+ 
+    <p id="succes" style="font-size: 2em; text-align: center; color: green; display: none;"></p>
+    <p id="error" style="font-size: 2em; text-align: center; color: red; display: none;" ></p>
+    
+  -->
+
+
+<script src="exo4.js"></script>
+</body>
+</html>
+
