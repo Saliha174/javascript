@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "exo12",
+			"path": "."
+		},
+		{
+			"name": "img",
+			"path": "../../../../../Downloads/img (1)/img"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "exo12"
+	}
+}

@@ -1,0 +1,12 @@
+.container{
+    text-align: center;
+    background-color: rgb(225, 211, 48);
+
+}
+h1{
+
+    translate: 0 0;
+    transition: 0.7s;
+    
+
+}
